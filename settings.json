@@ -38,7 +38,7 @@
     "dotenv" : "tune"
   },
   "typescript.updateImportsOnFileMove.enabled" : "never",
-  "workbench.colorTheme" : "Aura Dark (Soft Text)",
+  "workbench.colorTheme" : "Omni",
   "material-icon-theme.files.associations" : {
     "tsconfig.json" : "tune",
     "*.webpack.js" : "webpack",
@@ -60,7 +60,6 @@
     "FIG_NEW_SESSION": "1"
   },
   "workbench.editor.labelFormat" : "short",
-  "editor.fontLigatures" : true,
   "emmet.includeLanguages" : {
     "javascript" : "javascriptreact"
   },
@@ -124,12 +123,13 @@
   "terminal.integrated.fontSize" : 14,
   "editor.codeActionsOnSave" : {
     "source.fixAll.eslint" : true,
-    // "source.organizeImports": true
+    "source.organizeImports": true
   },
   "editor.semanticHighlighting.enabled" : false,
   "breadcrumbs.enabled" : true,
   "workbench.productIconTheme" : "fluent-icons",
-  "editor.fontFamily" : "JetBrains Mono",
+  "editor.fontFamily" :"Fira Code",
+  "editor.fontLigatures" : true,
   "gitlens.codeLens.authors.enabled" : false,
   "editor.tabSize" : 2,
   "security.workspace.trust.untrustedFiles" : "newWindow",
@@ -142,8 +142,14 @@
   },
   "tabnine.experimentalAutoImports" : true,
   "gitlens.codeLens.enabled": false,
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.preferredDarkColorTheme": "Aura Dark",
-  "workbench.preferredHighContrastColorTheme": "Aura Dark",
-  "workbench.preferredLightColorTheme": "Aura Dark"
+  "workbench.iconTheme": "symbols",
+  "workbench.preferredDarkColorTheme": "Omni",
+  "workbench.preferredHighContrastColorTheme": "Omni",
+  "workbench.preferredLightColorTheme": "Omni",
+  "editor.guides.bracketPairs": true,
+  "git.confirmSync": false,
+  "workbench.preferredHighContrastLightColorTheme": "Thanos : Infinity Dark - Contrast",
+  "database-client.resultTheme": "contrast",
+  "window.zoomLevel": 1,
+  "redhat.telemetry.enabled": true
 }
