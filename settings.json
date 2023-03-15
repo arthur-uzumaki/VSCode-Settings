@@ -37,14 +37,14 @@
   "material-icon-theme.languages.associations" : {
     "dotenv" : "tune"
   },
-  "typescript.updateImportsOnFileMove.enabled" : "never",
-  "workbench.colorTheme" : "Omni",
-  "material-icon-theme.files.associations" : {
-    "tsconfig.json" : "tune",
-    "*.webpack.js" : "webpack",
-    "*.proto" : "3d",
-    "ormconfig.json" : "database"
-  },
+"typescript.updateImportsOnFileMove.enabled" : "never",
+"workbench.colorTheme" : "Omni",
+"material-icon-theme.files.associations" : {
+"tsconfig.json" : "tune",
+"*.webpack.js" : "webpack",
+"*.proto" : "3d",
+"ormconfig.json" : "database"
+},
   "material-icon-theme.activeIconPack" : "nest",
   "editor.suggestSelection" : "first",
   "explorer.confirmDelete" : false,
@@ -126,8 +126,7 @@
     "source.organizeImports": true
   },
   "editor.semanticHighlighting.enabled" : false,
-  "breadcrumbs.enabled" : true,
-  "workbench.productIconTheme" : "fluent-icons",
+  "breadcrumbs.enabled": true,
   "editor.fontFamily" :"Fira Code",
   "editor.fontLigatures" : true,
   "gitlens.codeLens.authors.enabled" : false,
@@ -150,6 +149,11 @@
   "git.confirmSync": false,
   "workbench.preferredHighContrastLightColorTheme": "Thanos : Infinity Dark - Contrast",
   "database-client.resultTheme": "contrast",
+  "redhat.telemetry.enabled": true,
+  "boot-java.rewrite.reconcile": true,
+  "git.openRepositoryInParentFolders": "never",
+  "workbench.productIconTheme": "fluent-icons",
+  "hediet.vscode-drawio.resizeImages": null,
   "window.zoomLevel": 1,
-  "redhat.telemetry.enabled": true
+  "editor.stickyScroll.enabled": true
 }
