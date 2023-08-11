@@ -1,26 +1,26 @@
 {
-  "emmet.syntaxProfiles" : {
-    "javascript" : "jsx"
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
   },
-  "workbench.startupEditor" : "newUntitledFile",
-  "editor.fontSize" : 16,
-  "javascript.suggest.autoImports" : true,
-  "javascript.updateImportsOnFileMove.enabled" : "always",
-  "editor.rulers" : [
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.fontSize": 16,
+  "javascript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.rulers": [
     80,
     120
   ],
-  "extensions.ignoreRecommendations" : true,
-  "typescript.tsserver.log" : "off",
-  "files.associations" : {
-    ".sequelizerc" : "javascript",
-    ".stylelintrc" : "json",
-    "*.tsx" : "typescriptreact",
-    ".env.*" : "dotenv",
-    ".prettierrc" : "json"
+  "extensions.ignoreRecommendations": true,
+  "typescript.tsserver.log": "off",
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    "*.tsx": "typescriptreact",
+    ".env.*": "dotenv",
+    ".prettierrc": "json"
   },
-  "screencastMode.onlyKeyboardShortcuts" : true,
-  "cSpell.userWords" : [
+  "screencastMode.onlyKeyboardShortcuts": true,
+  "cSpell.userWords": [
     "chakra",
     "IUGU",
     "middlewares",
@@ -30,73 +30,71 @@
     "rocketseat",
     "upsert"
   ],
-  "editor.parameterHints.enabled" : false,
-  "editor.renderLineHighlight" : "gutter",
-  "cSpell.language" : "en,pt",
-  "editor.lineHeight" : 26,
-  "material-icon-theme.languages.associations" : {
-    "dotenv" : "tune"
+  "editor.parameterHints.enabled": false,
+  "editor.renderLineHighlight": "gutter",
+  "cSpell.language": "en,pt",
+  "editor.lineHeight": 26,
+  "material-icon-theme.languages.associations": {
+    "dotenv": "tune"
   },
-"typescript.updateImportsOnFileMove.enabled" : "never",
-"workbench.colorTheme" : "Omni",
-"material-icon-theme.files.associations" : {
-"tsconfig.json" : "tune",
-"*.webpack.js" : "webpack",
-"*.proto" : "3d",
-"ormconfig.json" : "database"
-},
-  "material-icon-theme.activeIconPack" : "nest",
-  "editor.suggestSelection" : "first",
-  "explorer.confirmDelete" : false,
-  "gitlens.codeLens.recentChange.enabled" : false,
-  "terminal.integrated.showExitAlert" : false,
-  
-  "[prisma]" : {
-    "editor.formatOnSave" : true
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "workbench.colorTheme": "Omni",
+  "material-icon-theme.files.associations": {
+    "tsconfig.json": "tune",
+    "*.webpack.js": "webpack",
+    "*.proto": "3d",
+    "ormconfig.json": "database"
   },
-    
-  "typescript.suggest.autoImports" : true,
-  "terminal.integrated.env.osx" : {
+  "material-icon-theme.activeIconPack": "nest",
+  "editor.suggestSelection": "first",
+  "explorer.confirmDelete": false,
+  "gitlens.codeLens.recentChange.enabled": false,
+  "terminal.integrated.showExitAlert": false,
+  "[prisma]": {
+    "editor.formatOnSave": true
+  },
+  "typescript.suggest.autoImports": true,
+  "terminal.integrated.env.osx": {
     "FIG_NEW_SESSION": "1"
   },
-  "workbench.editor.labelFormat" : "short",
-  "emmet.includeLanguages" : {
-    "javascript" : "javascriptreact"
+  "workbench.editor.labelFormat": "short",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
   },
-  "liveshare.featureSet" : "insiders",
-  "material-icon-theme.folders.associations" : {
-    "adapters" : "contract",
-    "grpc" : "pipe",
-    "kube" : "kubernetes",
-    "main" : "lib",
-    "websockets" : "pipe",
-    "implementations" : "core",
-    "protos" : "pipe",
-    "entities" : "class",
-    "kafka" : "pipe",
-    "use-cases" : "functions",
-    "migrations" : "tools",
-    "schemas" : "class",
-    "useCases" : "functions",
-    "eslint-config" : "tools",
-    "typeorm" : "database",
-    "_shared" : "shared",
-    "mappers" : "meta",
-    "fakes" : "mock",
-    "modules" : "components",
-    "subscribers" : "messages",
-    "domain" : "class",
-    "protocols" : "contract",
-    "infra" : "app",
-    "view-models" : "views",
-    "presentation" : "template",
-    "dtos" : "typescript",
-    "http" : "container",
-    "providers" : "include",
-    "factories" : "class",
-    "repositories" : "mappings"
+  "liveshare.featureSet": "insiders",
+  "material-icon-theme.folders.associations": {
+    "adapters": "contract",
+    "grpc": "pipe",
+    "kube": "kubernetes",
+    "main": "lib",
+    "websockets": "pipe",
+    "implementations": "core",
+    "protos": "pipe",
+    "entities": "class",
+    "kafka": "pipe",
+    "use-cases": "functions",
+    "migrations": "tools",
+    "schemas": "class",
+    "useCases": "functions",
+    "eslint-config": "tools",
+    "typeorm": "database",
+    "_shared": "shared",
+    "mappers": "meta",
+    "fakes": "mock",
+    "modules": "components",
+    "subscribers": "messages",
+    "domain": "class",
+    "protocols": "contract",
+    "infra": "app",
+    "view-models": "views",
+    "presentation": "template",
+    "dtos": "typescript",
+    "http": "container",
+    "providers": "include",
+    "factories": "class",
+    "repositories": "mappings"
   },
-  "cSpell.enableFiletypes" : [
+  "cSpell.enableFiletypes": [
     "!asciidoc",
     "!c",
     "!cpp",
@@ -115,33 +113,38 @@
     "!scala",
     "!scss"
   ],
-  "editor.acceptSuggestionOnCommitCharacter" : false,
-  "explorer.compactFolders" : false,
-  "git.enableSmartCommit" : true,
-  "editor.accessibilitySupport" : "off",
-  "explorer.confirmDragAndDrop" : false,
-  "terminal.integrated.fontSize" : 14,
-  "editor.codeActionsOnSave" : {
-    "source.fixAll.eslint" : true,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "explorer.compactFolders": false,
+  "git.enableSmartCommit": true,
+  "editor.accessibilitySupport": "off",
+  "explorer.confirmDragAndDrop": false,
+  "terminal.integrated.fontSize": 14,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
     "source.organizeImports": true
   },
-  "editor.semanticHighlighting.enabled" : false,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "graphql",
+  ],
+  "editor.semanticHighlighting.enabled": false,
   "breadcrumbs.enabled": true,
-  "editor.fontFamily" :"Fira Code",
-  "editor.fontLigatures" : true,
-  "gitlens.codeLens.authors.enabled" : false,
-  "editor.tabSize" : 2,
-  "security.workspace.trust.untrustedFiles" : "newWindow",
-  "files.exclude" : {
-    "**\/CVS" : true,
-    "**\/.DS_Store" : true,
-    "**\/.hg" : true,
-    "**\/.svn" : true,
-    "**\/.git" : true
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "gitlens.codeLens.authors.enabled": false,
+  "editor.tabSize": 2,
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "files.exclude": {
+    "**\/CVS": true,
+    "**\/.DS_Store": true,
+    "**\/.hg": true,
+    "**\/.svn": true,
+    "**\/.git": true
   },
-  "tabnine.experimentalAutoImports" : true,
+  "tabnine.experimentalAutoImports": true,
   "gitlens.codeLens.enabled": false,
-  "workbench.iconTheme": "symbols",
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.preferredDarkColorTheme": "Omni",
   "workbench.preferredHighContrastColorTheme": "Omni",
   "workbench.preferredLightColorTheme": "Omni",
@@ -154,6 +157,30 @@
   "git.openRepositoryInParentFolders": "never",
   "workbench.productIconTheme": "fluent-icons",
   "hediet.vscode-drawio.resizeImages": null,
+  "editor.stickyScroll.enabled": true,
+  "terminal.integrated.env.windows": {},
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "hediet.vscode-drawio.theme": "dark",
+  "errorLens.excludeBySource": [
+    "Java(16777748)",
+    "Java(1610612967)",
+    "vscode-spring-boot(PROP_UNKNOWN_PROPERTY)"
+  ],
+  "symbols.hidesExplorerArrows": true,
+  "vscode-pets.petSize": "medium",
+  "vscode-pets.petColor": "black",
+  "vscode-pets.theme": "castle",
+  "vscode-pets.petType": "dog",
+  "vscode-pets.position": "panel",
   "window.zoomLevel": 1,
-  "editor.stickyScroll.enabled": true
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+
 }
