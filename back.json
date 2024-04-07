@@ -1,4 +1,3 @@
-
 {
     "workbench.startupEditor": "newUntitledFile",
     "editor.fontSize": 14,
@@ -226,7 +225,7 @@
       "WEBPUSH"
     ],
     "workbench.statusBar.visible": false,
-    "workbench.colorTheme": "Min Dark",
+    "workbench.colorTheme": "Vesper ++",
     "workbench.editor.enablePreview": false,
 
     "[java]": {
@@ -235,4 +234,8 @@
     "redhat.telemetry.enabled": true,
     "workbench.activityBar.location": "hidden",
     "workbench.layoutControl.enabled": false,
+    "files.encoding": "utf8",
+    "git.autofetch": true,
+    "terminal.integrated.env.windows": {},
+
   }
